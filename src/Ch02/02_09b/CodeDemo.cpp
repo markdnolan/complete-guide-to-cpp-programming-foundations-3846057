@@ -1,6 +1,7 @@
 // Complete Guide to C++ Programming Foundations
 // Exercise 02_09
-// Structures, by Eduardo Corpeño 
+// Structures, by Eduardo Corpeño
+// Exercise completed by Mark Nolan
 
 #include <iostream>
 #include <string>
