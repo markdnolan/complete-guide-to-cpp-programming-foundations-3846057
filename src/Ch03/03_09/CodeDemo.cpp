@@ -14,8 +14,8 @@ double my_average(int a, int8_t b, uint32_t c){
 }
 
 int main(){
-    int a = 10;
-    int8_t b = 21;
+    int a = 0;
+    int8_t b = 15;
     uint32_t c = 30;
     double learnerResult = my_average(a, b, c);
     

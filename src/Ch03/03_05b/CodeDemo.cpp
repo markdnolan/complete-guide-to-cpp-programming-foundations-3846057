@@ -1,6 +1,7 @@
 // Complete Guide to C++ Programming Foundations
 // Exercise 03_05
 // Compound Assignment Operators, by Eduardo Corpeño 
+// Completed by Mark Nolan
 
 #include <iostream>
 
@@ -12,14 +13,24 @@ int main(){
     std::cout << "Initial Zombies Incoming: " << incoming_zombies << std::endl;
 
     // Addition assignment
+    ammo += 10;
+    std::cout << "Ammo after finding more: " << ammo << std::endl;
 
     // Subtraction assignment
+    ammo -= 5;
+    std::cout << "Ammo after using some: " << ammo << std::endl;
 
     // Multiplication assignment
+    incoming_zombies *= 2;
+    std::cout << "Zombies after taking too long to eliminate them: " << incoming_zombies << std::endl;
 
     // Division assignment
+    ammo /= 2;
+    std::cout << "Ammo after sharing some with a friend: " << ammo << std::endl;
 
     // Remainder assignment
+    ammo %= 6;
+    std::cout << "Ammo remaining in magazine after player loses their backpack: " << ammo << std::endl;
 
     std::cout << std::endl << std::endl;
     return 0;
