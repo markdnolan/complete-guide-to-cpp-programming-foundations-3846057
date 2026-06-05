@@ -10,7 +10,7 @@ int main(){
     int a = 37;
     // declare a pointer using leading *, int tells us that the data at the location pointed
     // to by ptr is an integer
-    int *ptr;
+    int* ptr;
     
     // nullptr is a special type that means no valid address, rather than null which is 0
     // having all initialized pointers using null would point them to memory address 0x00000000
